@@ -97,7 +97,7 @@
         /
         <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
         /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+<!--         <a href="https://arxiv.org/abs/2312.07541">arXiv</a> -->
         <p></p>
         <p>
         Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
@@ -139,14 +139,62 @@
         <br>
         <em>arXiv</em>, 2023
         <br> -->
+	      <br>
         <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
         /
         <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
         /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+<!--         <a href="http://arxiv.org/abs/2312.05283">arXiv</a> -->
         <p></p>
         <p>
         Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+        </p>
+      </td>
+    </tr>
+
+
+    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+          <source src="images/nuvo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/nuvo.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function nuvo_start() {
+            document.getElementById('nuvo_image').style.opacity = "1";
+          }
+
+          function nuvo_stop() {
+            document.getElementById('nuvo_image').style.opacity = "0";
+          }
+          nuvo_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://tharun-tharun.github.io/project1/">
+          <span class="papertitle">Structured view-dependent for Neural Radiance Fields</span>
+        </a>
+<!--         <br>
+        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
+        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
+        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
+		<strong>Jonathan T. Barron</strong>,
+        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+        <br>
+        <em>arXiv</em>, 2023
+        <br> -->
+	      <br>
+        <a href="https://tharun-tharun.github.io/project1/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=fQ941p9SmO4">video</a>
+        /
+<!--         <a href="http://arxiv.org/abs/2312.05283">arXiv</a> -->
+        <p></p>
+        <p>
+	This project involves NeRF that improves upon inability to accurately render glossy surfaces. It replaces NeRF's approach with one that represents reflected radiance, enhancing realism and accuracy, especially in specular reflections.
         </p>
       </td>
     </tr>
