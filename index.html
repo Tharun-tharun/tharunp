@@ -242,7 +242,57 @@
 		We finetune an image diffusion model to accept multiview inputs, then use it to regularize radiance field reconstruction.
         </p>
       </td>
-    </tr>		  
+    </tr>
+
+
+
+    <tr onmouseout="recon_stop()" onmouseover="recon_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='recon_images'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/recon.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/recon.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function recon_start() {
+            document.getElementById('recon_image').style.opacity = "1";
+          }
+
+          function recon_stop() {
+            document.getElementById('recon_image').style.opacity = "0";
+          }
+          recon_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://reconfusion.github.io/">
+          <papertitle><b>6D Object Pose Estimation in Real-World Environments<b></papertitle>
+        </a>
+<!--         <br>
+        <a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu*</a>,
+        <a href="https://bmild.github.io/">Ben Mildenhall*</a>,
+        <a href="https://henzler.github.io/">Philipp Henzler</a>,
+        <a href="https://keunhong.com/">Keunhong Park</a>,
+        <a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
+        <a href="https://scholar.google.com/citations?user=_pKKv2QAAAAJ&hl=en/">Daniel Watson</a>,
+        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>,
+        <strong>Dor Verbin</strong>,
+        <a href="https://jonbarron.info/">Jonathan T. Barron</a>,
+        <a href="https://poolio.github.io/">Ben Poole</a>,
+        <a href="https://holynski.org/">Aleksander Holynski*</a>
+        <br>
+        <em>CVPR</em>, 2024 -->
+        <br>
+        <a href="https://tharun-tharun.github.io/semi_pose">project page</a>
+<!--         /
+        <a href="https://arxiv.org/abs/2312.02981">arXiv</a> -->
+        <p>
+		Accurate 6D pose estimation results on diverse daily objects without any human annotations.
+        </p>
+      </td>
+    </tr>
 
 <!--   <tr onmouseout="eclipse_stop()" onmouseover="eclipse_start()">
     <td style="padding:20px;width:25%;vertical-align:middle">
