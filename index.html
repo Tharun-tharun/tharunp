@@ -110,6 +110,55 @@
         </p>
       </td>
     </tr>
+
+
+    <tr onmouseout="tomato_stop()" onmouseover="tomato_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
+          <source src="images/tomato.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/keypoints.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function tomato_start() {
+            document.getElementById('keypoints_image').style.opacity = "1";
+          }
+
+          function tomato_stop() {
+            document.getElementById('keypoints_image').style.opacity = "0";
+          }
+          tomato_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://tharun-tharun.github.io/Robotic_Manipulation/">
+          <span class="papertitle"> A Versatile Transformer for Robotic Manipulation Tasks</span>
+        </a>
+<!--         <br>
+		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
+		<a href="https://phogzone.com/">Peter Hedman*</a>,
+		<a href="https://creiser.github.io/">Christian Reiser</a>,
+		<a href="">Peter Zhizhin</a>,
+		<a href="">Jean-François Thibert</a>,
+        <a href="https://lucic.ai/">Mario Lučić</a>,
+        <a href="https://szeliski.org/">Richard Szeliski</a>,
+		<strong>Jonathan T. Barron</strong>
+        <br>
+        <em>arXiv</em>, 2023
+        <br> -->
+	      <br>
+        <a href="https://tharun-tharun.github.io/Robotic_Manipulation">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=nCEE7s-S6XU">video</a>
+<!--         <a href="https://arxiv.org/abs/2312.07541">arXiv</a> -->
+        <p></p>
+        <p>
+        It is an end-to-end behavior-cloning agent that can learn a single language-conditioned policy for 18 RLBench tasks with 249 unique task variations.
+        </p>
+      </td>
+    </tr>		  
 	
 
 <!--     <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
