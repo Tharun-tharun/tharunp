@@ -112,24 +112,24 @@
     </tr>
 
 
-    <tr onmouseout="tomato_stop()" onmouseover="tomato_start()">
+    <tr onmouseout="keypoints_stop()" onmouseover="keypoints_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='tomato_image'><video  width=100% muted autoplay loop>
-          <source src="images/tomato.mp4" type="video/mp4">
+          <div class="two" id='keypoints_image'><video  width=100% muted autoplay loop>
+          <source src="images/keypoints.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/tomato.jpg' width=100%>
+          <img src='images/keypoints.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function tomato_start() {
-            document.getElementById('tomato_image').style.opacity = "1";
+          function keypoints_start() {
+            document.getElementById('keypoints_image').style.opacity = "1";
           }
 
-          function tomato_stop() {
-            document.getElementById('tomato_image').style.opacity = "0";
+          function keypoints_stop() {
+            document.getElementById('keypoints_image').style.opacity = "0";
           }
-          tomato_stop()
+          keypoints_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
