@@ -112,24 +112,24 @@
     </tr>
 
 
-    <tr onmouseout="keypoints_stop()" onmouseover="keypoints_start()">
+    <tr onmouseout="sim_tasks_stop()" onmouseover="sim_tasks_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='keypoints_image'><video  width=100% muted autoplay loop>
-          <source src="images/keypoints.mp4" type="video/mp4">
+          <div class="two" id='sim_tasks_image'><video  width=100% muted autoplay loop>
+          <source src="images/sim_tasks.gif" type="video/gif">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/keypoints.jpg' width=100%>
+          <img src='images/sim_task.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function keypoints_start() {
-            document.getElementById('keypoints_image').style.opacity = "1";
+          function sim_tasks_start() {
+            document.getElementById('sim_tasks_image').style.opacity = "1";
           }
 
-          function keypoints_stop() {
-            document.getElementById('keypoints_image').style.opacity = "0";
+          function sim_tasks_stop() {
+            document.getElementById('sim_tasks_image').style.opacity = "0";
           }
-          keypoints_stop()
+          sim_tasks_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
