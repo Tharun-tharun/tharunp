@@ -112,24 +112,24 @@
     </tr>
 
 
-    <tr onmouseout="sim_tasks_stop()" onmouseover="sim_tasks_start()">
+    <tr onmouseout="tomato_stop()" onmouseover="tomato_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='sim_tasks_image'><video  width=100% muted autoplay loop>
-          <source src="images/sim_tasks.gif" type="video/gif">
+          <div class="two" id='tomato_image'><video  width=100% muted autoplay loop>
+          <source src="images/tomato.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/sim_task.jpg' width=100%>
+          <img src='images/tomato.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function sim_tasks_start() {
-            document.getElementById('sim_tasks_image').style.opacity = "1";
+          function tomato_start() {
+            document.getElementById('tomato_image').style.opacity = "1";
           }
 
-          function sim_tasks_stop() {
-            document.getElementById('sim_tasks_image').style.opacity = "0";
+          function tomato_stop() {
+            document.getElementById('tomato_image').style.opacity = "0";
           }
-          sim_tasks_stop()
+          tomato_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
